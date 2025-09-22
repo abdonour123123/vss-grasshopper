@@ -1,0 +1,327 @@
+@media (min-width: 1200px) {
+  /* Styles for large screens */
+}
+
+/* ✅ Desktops and laptops (992px to 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+
+/* ✅ Tablets (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    background-position: 90%;
+  }
+
+  .numbers {
+    justify-content: flex-start;
+  }
+
+  .footer-second-part {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin: 0 4rem;
+  }
+
+  .footer-firstpart {
+    flex-wrap: wrap;
+    margin: 0 40px;
+    flex-direction: column;
+  }
+
+  .footer-columns {
+    flex-direction: wrap;
+  }
+
+  .links ul {
+    gap: 2.5rem;
+  }
+  .logo-sticky-header {
+    max-width: 14.7rem;
+  }
+  .sticky-header-dropdown-wrapper button {
+    font-size: 1.6rem;
+    margin: 0 0 0 1.6rem;
+  }
+  .sticky-header-nav-secondary {
+    display: none;
+  }
+  .sticky-link.header-link-primary {
+    padding: 0.9rem 2.6rem;
+    margin-left: 9rem;
+  }
+  .section-grid {
+    flex-wrap: wrap;
+  }
+
+  .section-hero-part {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-text {
+    padding: 0;
+    max-width: 50rem;
+    flex-wrap: wrap;
+  }
+  .advantages-image {
+    max-width: 47.8rem;
+  }
+  .advantages-container .sticky-link.header-link-primary {
+    margin-left: 12rem;
+  }
+  .section-main-part {
+    text-align: center;
+  }
+  .steps-container .section-grid {
+    flex-wrap: nowrap;
+  }
+  .steps-container .section-title {
+    text-align: center;
+  }
+  .testimonial {
+    gap: 7.8rem;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+
+  .testimonial-image {
+    max-width: 31.7rem;
+  }
+  .testimonial-description q {
+    font-size: 3.6rem;
+  }
+  .arrow-left,
+  .arrow-right {
+    display: flex;
+    max-width: 1.5rem;
+    position: relative;
+    bottom: 50%;
+    cursor: pointer;
+  }
+  .arrow-left {
+    left: 36rem;
+    top: 32.5rem;
+  }
+
+  .arrow-right {
+    right: 36rem;
+    top: 32.5rem;
+  }
+
+  nav {
+    display: none;
+  }
+}
+/* ✅ Mobile landscape / small tablets (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+  .hero-container {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .sticky-header-nav-secondary {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .section-main-part h2 {
+    font-size: 4.8rem;
+    text-align: center;
+  }
+  .section-main-part p {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .section-text {
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial {
+    gap: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+
+  .testimonial-description q {
+    max-width: 28rem;
+    text-align: center;
+  }
+
+  .section-text-info {
+    max-width: 50%;
+  }
+  .advantages-image {
+    max-width: 36.7rem;
+  }
+
+  .testimonial-description {
+    max-width: 35rem;
+  }
+
+  .arrow-right {
+    right: 45%;
+    bottom: 5%;
+  }
+  .arrow-left {
+    left: 45%;
+    bottom: 5%;
+  }
+  .testimonial-image {
+    max-width: 30rem;
+  }
+  .steps-container .section-title {
+    text-align: center;
+  }
+  .sticky-link.header-link-primary {
+    margin: 0 auto;
+  }
+  .numbers {
+    justify-content: flex-start;
+  }
+  .Grasshoper.Image {
+    max-width: 48rem;
+    width: 100%;
+  }
+  .section-hero-part {
+    flex-direction: column;
+  }
+  .gh-homepage-hero__content .section-title {
+    font-size: 4rem;
+    line-height: 42px;
+    text-align: center;
+  }
+  .gh-homepage-hero__content p.section-description {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .gh-homepage-hero__content .sticky-link.header-link-primary {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  h2.section-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .advantages-container .sticky-link.header-link-primary {
+    margin-left: 5rem;
+  }
+  .testimonial-image {
+    max-width: 22rem;
+  }
+
+  .testimonial {
+    flex-direction: column-reverse;
+  }
+  .testimonial-description {
+    max-width: 31rem;
+    text-align: center;
+  }
+  .testimonial-description q {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .advantages-image {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .section-text {
+    padding: 0 1rem 0 2rem;
+  }
+  .faq-container .section-title {
+    font-size: 3rem;
+  }
+
+  .steps-container .section-title {
+    font-size: 3rem;
+  }
+
+  .section-grid {
+    flex-direction: column;
+  }
+  .link-over {
+    text-align: center;
+  }
+  .section-main-part p {
+    font-size: 2rem;
+  }
+  .section-description {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .business-container-1 .section-title {
+    font-size: 3rem;
+  }
+  .business-container-1 p {
+    font-size: 2rem;
+    padding: 0;
+  }
+  .section-hero-part {
+    flex-direction: column;
+  }
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+  }
+  .sticky-header-nav-secondary {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .gh-homepage-hero__content .sticky-link.header-link-primary {
+    margin: 3.2rem auto;
+  }
+  .gh-homepage-hero__content .section-title {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .gh-homepage-hero__content .section-description {
+    font-size: 2rem;
+  }
+  .numbers {
+    justify-content: flex-start;
+  }
+  .number-text h2 {
+    font-size: 2.4rem;
+  }
+  .footer-firstpart,
+  .footer-second-part,
+  .footer-third-part {
+    flex-direction: column;
+    align-self: flex-start;
+    justify-self: flex-start;
+    align-items: normal;
+    margin: 0 2rem;
+  }
+  .footer-second-part {
+    gap: 3rem;
+  }
+  .footer-third-part {
+    margin-bottom: 5rem;
+  }
+  .links {
+    justify-content: normal;
+  }
+  .links ul {
+    flex-direction: column;
+    align-items: normal;
+    margin: 0 2rem 3.2rem;
+    gap: 0.1rem;
+  }
+  .footer-columns {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
