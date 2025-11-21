@@ -240,6 +240,14 @@
     font-size: 3rem;
   }
 
+  .arrow-left {
+    top: 90%;
+  }
+
+    .arrow-right { 
+      top: 2.5%;
+    }
+
   .steps-container .section-title {
     font-size: 3rem;
   }

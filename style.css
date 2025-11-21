@@ -439,7 +439,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   gap: 10rem;
 }
 
@@ -652,6 +651,7 @@ nav {
   text-align: center;
   background-size: initial;
   padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .business-container-1 .section-title {
@@ -661,7 +661,7 @@ nav {
 }
 
 .faq-box {
-  padding-left: 5rem;
+  padding-inline: 5rem;
 }
 
 .business-container-1 p {
