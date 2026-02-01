@@ -98,7 +98,11 @@ nav {
 
 .sticky-link.header-link-main {
   padding: 0.9rem 0;
+<<<<<<< HEAD
   margin: 0 0 0 4rem;
+=======
+  margin: 0 4rem 0 4rem;
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -107,6 +111,13 @@ nav {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
+.advantages-container .section-text .sticky-link.header-link-primary {
+  margin-bottom: 5rem;
+}
+
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 .sticky-link.header-link-primary {
   background-color: #11cb42;
   border: 3px solid transparent;
@@ -115,11 +126,18 @@ nav {
   color: #000;
   cursor: pointer;
   display: inline-block;
+<<<<<<< HEAD
+=======
+  margin-bottom: 0rem;
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: -0.54px;
   line-height: normal;
+<<<<<<< HEAD
   margin: 0 0 0 25.4rem;
+=======
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
   padding: 8px 24px;
   text-align: center;
   text-transform: uppercase;
@@ -322,9 +340,12 @@ nav {
   width: 100%;
   padding: 0 1rem;
 }
+<<<<<<< HEAD
 .sticky-link.header-link-primary {
   margin: 0;
 }
+=======
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 
 .section-text-info h4 {
   margin: 0.7rem 0;
@@ -454,7 +475,11 @@ nav {
 }
 
 .testimonial-image {
+<<<<<<< HEAD
   max-height: 48rem;
+=======
+  max-height: 38rem;
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
   max-width: 50rem;
   width: 100%;
   -o-object-fit: cover;
@@ -518,8 +543,13 @@ nav {
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< HEAD
    background-color: #000;
    color: #fff;
+=======
+  background-color: #000;
+  color: #fff;
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 }
 
 .feature-box {
@@ -546,7 +576,10 @@ nav {
   justify-content: center;
   margin: auto auto 3.2rem;
   max-width: 110rem;
+<<<<<<< HEAD
  
+=======
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 }
 .feature-box .feature-img {
   margin-right: 1.6rem;
@@ -614,6 +647,10 @@ nav {
   position: relative;
   padding-right: 2rem; /* space for arrow */
   font-weight: 800;
+<<<<<<< HEAD
+=======
+  animation: 0.2s all linear;
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 }
 
 /* arrow */
@@ -638,6 +675,20 @@ nav {
 .faq-answer {
   font-size: 1.6rem;
   font-weight: 500;
+<<<<<<< HEAD
+=======
+  max-height: 0; /* hide content by default */
+  overflow: hidden; /* required for sliding effect */
+  opacity: 0; /* optional: fade in */
+  transition:
+    max-height 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.faq-box.open .faq-answer {
+  max-height: 500px; /* enough to fit content */
+  opacity: 1; /* fade in */
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
 }
 
 .business-container-1 {
@@ -712,7 +763,11 @@ footer {
 
 .footer-columns {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(2, 1FR);
+=======
+  grid-template-columns: repeat(2, 1fr);
+>>>>>>> 71923c0 (Initial commit with FAQ animation changes)
   align-items: center;
   justify-content: center;
   max-width: 95rem;
